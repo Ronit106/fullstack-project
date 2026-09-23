@@ -1,0 +1,44 @@
+01 - Counter App
+│
+├── index.html
+├── style.css
+└── script.js
+
+
+BLUEPRINT
+
+
+                 COUNTER APP
+
+               Counter
+
+                  0
+
+         [-]             [+]
+
+
+
+USER JOURNY
+
+Open Website
+        │
+        ▼
+Counter shows 0
+        │
+        ▼
+Clicks +
+        │
+        ▼
+Counter becomes 1
+        │
+        ▼
+Clicks +
+        │
+        ▼
+Counter becomes 2
+        │
+        ▼
+Clicks -
+        │
+        ▼
+Counter becomes 1

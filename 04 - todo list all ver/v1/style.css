@@ -1,0 +1,26 @@
+body {
+ display: flex;
+ background-color: #3d3535;
+ flex-direction: column;
+ justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#card {
+    
+    text-align: center;
+    width: 400px;
+    height: 800px;
+    background-color: lightgray;
+    border-radius: 20px;
+} 
+
+.task {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+
+}

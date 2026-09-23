@@ -1,0 +1,28 @@
+body {
+
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+}
+
+#card {
+background-color: rgb(103, 172, 172);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+#clickme {
+
+    background-color: rgb(168, 119, 168);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+
+    cursor: pointer;
+}

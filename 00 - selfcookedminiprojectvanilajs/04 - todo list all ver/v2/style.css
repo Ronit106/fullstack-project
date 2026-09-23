@@ -1,0 +1,61 @@
+body {
+    background-color: #ad8787;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+#container {
+
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    min-height: 500px;
+    height: auto;
+    margin: 100px;
+    background-color: #8dc057;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    text-align: center; 
+}
+.taskItem
+ {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #79b0d2;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.filterbtn  {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+}
+//dark mode
+body.darkmode {
+    background-color: #333;
+    color: #fff;
+}
+body.darkmode #container {
+    background-color: #444;
+}
+body.darkmode .taskItem {
+    background-color: #555;
+    color: #fff;
+}
+body.darkmode button {
+    background-color: #6d2929;
+    color: #fff;
+}
+body.darkmode input {
+    background-color: #c0bcbc;
+    color: #000000;
+}

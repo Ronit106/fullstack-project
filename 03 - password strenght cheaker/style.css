@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+}
+
+#card {
+    border-radius: 25px;
+    padding: 25px;
+    background-color: gray;
+
+}
+
+#clickme {
+
+    color: blueviolet;
+    padding: 5px;
+    border-radius: 10px;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+button {
+
+    cursor: pointer;
+}

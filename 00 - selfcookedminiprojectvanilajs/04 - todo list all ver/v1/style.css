@@ -1,0 +1,33 @@
+body {
+    background-color: #ad8787;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+#container {
+
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    margin: 100px;
+    background-color: #8dc057;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    text-align: center; 
+}
+.taskItem
+ {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #79b0d2;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
